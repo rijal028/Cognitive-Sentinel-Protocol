@@ -17,6 +17,10 @@ The protocol is built on a foundation of continuous analysis and response:
 2.  **Continuous Trust Scoring (The Anomaly Engine):** In real-time, the system compares current activity against the user's established DNA. Anomalies apply a "penalty" to a dynamic "Trust Score" that fluctuates with every action.
 3.  **Tiered Automated Response (The Immune Response):** When a user's Trust Score drops below certain thresholds, the system automatically triggers a proportionate response—from forcing MFA for minor deviations, to a full account lockdown for critical anomalies.
 
+### **Advanced Threat Mitigation: The "Sleeper Agent" Problem**
+
+The protocol is further hardened against sophisticated threats through "Zero-Trust Onboarding." It validates the initial behavioral baseline by using **Cohort Analysis**—comparing a new user's learning patterns and error rates against the historical average of their peer group. This helps distinguish between a true novice, a "genius" outlier, and a malicious actor pretending to be a novice.
+
 ### **Place in the Ecosystem**
 
 This framework is the conceptual companion to the **[Fortress Architecture](https://github.com/rijal028/Fortress-File-Architecture)**.
@@ -25,7 +29,7 @@ This framework is the conceptual companion to the **[Fortress Architecture](http
 
 Together, they form a comprehensive, defense-in-depth strategy.
 
-For a complete breakdown of the architecture, please see the full blueprint documents:
+For a complete breakdown of the architecture, including the V3 research on baseline validation, please see the full blueprint documents:
 
 * **[Read the Full Blueprint (English)](BLUEPRINT_EN.md)**
 * **[Baca Blueprint Lengkap (Bahasa Indonesia)](BLUEPRINT_ID.md)**
@@ -47,6 +51,10 @@ Protokol ini dibangun di atas fondasi analisis dan respons yang berkelanjutan:
 2.  **Penilaian Kepercayaan Berkelanjutan (Mesin Anomali):** Secara *real-time*, sistem membandingkan aktivitas saat ini dengan DNA pengguna yang sudah ada. Anomali akan memberikan "penalti" pada "Skor Kepercayaan" dinamis yang berfluktuasi dengan setiap tindakan.
 3.  **Respon Otomatis Bertingkat (Tindakan Imun):** Ketika "Skor Kepercayaan" pengguna turun di bawah ambang batas tertentu, sistem secara otomatis memicu respons yang sepadan—mulai dari memaksa MFA untuk deviasi kecil, hingga penguncian akun total untuk anomali kritis.
 
+### **Mitigasi Ancaman Tingkat Lanjut: Masalah "Sleeper Agent"**
+
+Protokol ini diperkuat lebih lanjut terhadap ancaman canggih melalui "Onboarding Zero-Trust". Ia memvalidasi baseline perilaku awal dengan menggunakan **Analisis Kelompok (Cohort Analysis)**—membandingkan pola belajar dan tingkat kesalahan pengguna baru dengan rata-rata historis dari kelompok sebayanya. Ini membantu membedakan antara pemula sejati, talenta "jenius" yang unik, dan aktor jahat yang berpura-pura menjadi pemula.
+
 ### **Posisi dalam Ekosistem**
 
 Kerangka kerja ini adalah pendamping konseptual untuk **[Arsitektur Benteng (Fortress Architecture)](https://github.com/rijal028/Fortress-File-Architecture)**.
@@ -55,7 +63,7 @@ Kerangka kerja ini adalah pendamping konseptual untuk **[Arsitektur Benteng (For
 
 Bersama-sama, keduanya membentuk strategi pertahanan berlapis yang komprehensif.
 
-Untuk penjelasan lengkap mengenai arsitektur ini, silakan baca dokumen blueprint lengkapnya:
+Untuk penjelasan lengkap mengenai arsitektur ini, termasuk riset V3 tentang validasi baseline, silakan baca dokumen blueprint lengkapnya:
 
 * **[Baca Blueprint Lengkap (Bahasa Indonesia)](BLUEPRINT_ID.md)**
 * **[Read the Full Blueprint (English)](BLUEPRINT_EN.md)**
