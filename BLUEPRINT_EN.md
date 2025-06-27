@@ -13,8 +13,8 @@
     * [2.3. The Response Layer: Automated Immune Actions](#23-the-response-layer-automated-immune-actions)
 3.  [Synergy with the Fortress Architecture](#3-synergy-with-the-fortress-architecture)
 4.  [Case Studies: Neutralizing Specific Attack Vectors](#4-case-studies-neutralizing-specific-attack-vectors)
-5.  [Conclusion: Towards Identity-Driven Security](#5-conclusion-towards-identity-driven-security)
-
+5.  [Secure Communication Protocol (PKAI) for Data Integrity](#5-secure-communication-protocol-pkai-for-data-integrity)
+6.  [Conclusion: Towards Identity-Driven Security](#6-conclusion-towards-identity-driven-security)
 ---
 
 ### 1. Core Philosophy: Assume Breach
@@ -63,6 +63,12 @@ These two concepts are designed to work together as a defense-in-depth strategy.
 * **vs. Slow Attacks:** Long-term pattern analysis will detect consistent, low-level anomalous activities (e.g., small data downloads every night) and flag them in a report for investigation.
 * **vs. The "Sleeper Agent" Attack (v3):** This is the toughest challenge. The protocol can be further hardened with a "Zero-Trust Onboarding" policy, where a new employee's DNA profile is built within a "digital sandbox" with limited access for the first 30 days to ensure the learned baseline is truly clean.
 
-### 5. Conclusion: Towards Identity-Driven Security
+### 5. Secure Communication Protocol (PKAI) for Data Integrity
+
+A primary challenge is ensuring the "Behavioral DNA" data sent from the agent on a user's computer to the central analysis server is authentic and not manipulated in transit. To address this, the "Cognitive Protocol" is secured by an Internal Secure Communication Protocol.
+
+The agent on each device will use a unique, short-lived session token for each data transmission. The analysis server will validate this token and its context (e.g., is the data coming from the expected device?) before accepting and processing the DNA data. This ensures the integrity and authenticity of the data that forms the basis of the "Trust Score".
+
+### 6. Conclusion: Towards Identity-Driven Security
 
 The "Cognitive Sentinel Protocol" represents a shift from static, credential-based security (who you *say* you are) to dynamic, identity-driven security (who you *prove* you are through your behavior). By continuously validating identity through a behavioral lens, we can effectively detect and neutralize the most dangerous threats—those that come from within.
