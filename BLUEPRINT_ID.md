@@ -13,7 +13,8 @@
     * [2.3. Lapisan Respon: Tindakan Imun Otomatis](#23-lapisan-respon-tindakan-imun-otomatis)
 3.  [Sinergi dengan Arsitektur Benteng](#3-sinergi-dengan-arsitektur-benteng)
 4.  [Studi Kasus: Menetralisir Vektor Serangan Spesifik](#4-studi-kasus-menetralisir-vektor-serangan-spesifik)
-5.  [Kesimpulan: Menuju Keamanan Berbasis Identitas](#5-kesimpulan-menuju-keamanan-berbasis-identitas)
+5.  [Protokol Komunikasi Aman (PKAI) untuk Integritas Data](#5-protokol-komunikasi-aman-pkai-untuk-integritas-data)
+6.  [Kesimpulan: Menuju Keamanan Berbasis Identitas](#6-kesimpulan-menuju-keamanan-berbasis-identitas)
 
 ---
 
@@ -63,6 +64,9 @@ Kedua konsep ini dirancang untuk bekerja bersama sebagai strategi pertahanan ber
 * **vs. Serangan Lambat:** Analisis pola jangka panjang akan mendeteksi aktivitas anomali yang konsisten (misal: unduhan data kecil setiap malam) dan menurunkannya menjadi sebuah laporan untuk diinvestigasi.
 * **vs. Serangan "Sleeper Agent" (v3):** Ini adalah tantangan terberat. Protokol ini bisa diperkuat lebih lanjut dengan kebijakan "Zero-Trust Onboarding", di mana profil DNA karyawan baru dibangun dalam lingkungan "sandbox" dengan akses terbatas selama 30 hari pertama untuk memastikan baseline yang dipelajari benar-benar bersih.
 
-### 5. Kesimpulan: Menuju Keamanan Berbasis Identitas
+### 5. Protokol Komunikasi Aman (PKAI) untuk Integritas Data
+Untuk memastikan integritas semua komunikasi internal, sistem ini diamankan oleh sebuah protokol fondasi yang disebut **[Protokol Komunikasi Aman Internal (PKAI)](PKAI_BLUEPRINT.md)**. Silakan lihat blueprint lengkapnya untuk detail teknisnya.
+
+### 6. Kesimpulan: Menuju Keamanan Berbasis Identitas
 
 "Protokol Kognitif" mewakili pergeseran dari keamanan berbasis kredensial statis (siapa yang Anda *katakan*) ke keamanan berbasis identitas dinamis (siapa yang Anda *buktikan* melalui perilaku Anda). Dengan terus-menerus memvalidasi identitas melalui lensa perilaku, kita dapat secara efektif mendeteksi dan melumpuhkan ancaman paling berbahaya—ancaman yang datang dari dalam.
